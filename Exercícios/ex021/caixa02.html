@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: dimgrey;
+      margin: 0px;
+    }
+    header{
+       background-color:white;
+       padding:10px;
+       margin: 10px;
+    }
+    header > h1{
+      text-align: center;
+      color: black;
+      font-weight: bolder;
+    }
+    main{
+      background-color: white;
+      padding:10px;
+      margin: 10px;
+      border-radius:20px ;
+    }
+    footer{
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 1px;
+      margin: 4px;
+    }
+    footer > p {
+      margin:0px;
+          }
+          /*aqui foi necessário usar 0px no footer pois como havia o parágrafo ele estava vindo com a margem original*/
+    article{
+      background-color: lightgray;
+      padding: 5px;
+    }
+    h1{
+      box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.431);
+    }
+    article > aside {
+      background-color: rgb(161, 161, 161);
+    }
+    nav{
+      background-color: rgb(133, 133, 133);
+      padding: 3px;
+     box-shadow: 1px 1px 1px black;
+    }
+    nav > a{
+      text-decoration: none;
+      font-weight: bold;
+      margin: 30px;
+    }
+    nav > a:hover{
+      text-decoration: underline;
+    }
+    div#bola{
+    height: 100px;  
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu site</h1>
+    <nav>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+  </header>
+  <main>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo necessitatibus officiis, labore fuga saepe inventore nostrum eius vel soluta dolore debitis veniam culpa suscipit praesentium esse ad itaque magni eos? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatibus vitae dignissimos aperiam maiores. Impedit natus, soluta eius optio harum atque aliquid pariatur excepturi nisi ducimus esse maxime quisquam debitis.</p>
+   <section id="assuntos">
+    <P>Esportes Política Tecnologia</P>
+   </section>
+   <section id ="noticias">
+    <article>
+      <h2>Notícia sobre o Brasil</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aperiam ad tempore reiciendis velit ullam enim est unde amet officiis eligendi blanditiis nobis asperiores distinctio, voluptates quibusdam, quaerat dolore voluptate.</p>
+      <aside>
+        <p>Artigo escrito por José da Silva</p>
+      </aside>
+
+    </article>
+
+   </section>
+  </main>
+  <footer>
+    <p>Desenvolvido por Antônio Carlos(Cientista da Computação/Desenvolvedor Fullstack)</p>
+  </footer>
+  <div id="bola"></div>
+</body>
+</html>

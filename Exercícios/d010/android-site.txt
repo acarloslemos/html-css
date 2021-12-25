@@ -1,4 +1,4 @@
-[SITE]
+[SITE] legal
 
 Curiosidades de Tecnologia
 
